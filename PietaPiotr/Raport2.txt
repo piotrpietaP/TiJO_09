@@ -1,0 +1,30 @@
+/* Created by Piotr P. */
+
+/app/app.js:9:50 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:87 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:62 Replaced  ||  with && -> SURVIVED
+/app/app.js:8:39 Replaced  ||  with && -> SURVIVED
+/app/app.js:10:18 Removed return false; -> SURVIVED
+/app/app.js:10:25 Replaced false with true -> SURVIVED
+/app/app.js:13:29 Replaced  >  with >= -> SURVIVED
+/app/app.js:13:47 Replaced  *  with / -> SURVIVED
+/app/app.js:14:24 Replaced  >  with >= -> SURVIVED
+/app/app.js:17:31 Replaced  <  with <= -> SURVIVED
+/app/app.js:17:31 Replaced  <  with >= -> SURVIVED
+/app/app.js:17:34 Replaced 0 with 1 -> SURVIVED
+/app/app.js:18:22 Removed return {area: area, message: messageError}; -> SURVIVED
+/app/app.js:18:30 Removed area: area,  -> SURVIVED
+/app/app.js:18:44 Removed message: messageError -> SURVIVED
+/app/app.js:21:23 Removed return {area: 0, message: 'Big null'}; -> SURVIVED
+/app/app.js:21:34 Removed area: 0,  -> SURVIVED
+/app/app.js:21:40 Removed message: 'Big null' -> SURVIVED
+/app/app.js:21:46 Replaced 0 with 1 -> SURVIVED
+/app/app.js:21:52 Replaced 'Big null' with "MUTATION!" -> SURVIVED
+
+30 of 50 unignored mutations are tested (60%). 3 mutations were ignored.
+
+/* Second part of Report */
+
+/app/app.js:13:29 Replaced  >  with >= -> SURVIVED
+
+49 of 50 unignored mutations are tested (98%). 3 mutations were ignored.
